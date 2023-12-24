@@ -64,27 +64,27 @@
 
 
 
-.filter-bar {
-    /* text-align: center; */
-    padding: 20px;
-    /* background-color: #f1f1f1; */
-}
+            .filter-bar {
+                /* text-align: center; */
+                padding: 20px;
+                /* background-color: #f1f1f1; */
+            }
 
-.filter-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s, border 0.3s;
-}
+            .filter-button {
+                display: inline-block;
+                padding: 10px 20px;
+                margin: 5px;
+                background-color: #3498db;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s, border 0.3s;
+            }
 
-.filter-button:hover {
-    background-color: #297fb8;
-}
+            .filter-button:hover {
+                background-color: #297fb8;
+            }
 
 
 
@@ -101,18 +101,19 @@
                 <div class="filter-bar">
                     <button class="filter-button" data-category="all">All</button>
                     <button class="filter-button" data-category="ml">Machine Learning</button>
-                    <button class="filter-button" data-category="web">Deep Learining</button>
-                    <button class="filter-button" data-category="web">Visualizations</button>
-                    <button class="filter-button" data-category="web">Data Analysis</button>
-                    <button class="filter-button" data-category="web">Time Series</button>
+                    <button class="filter-button" data-category="dl">Deep Learining</button>
+                    <button class="filter-button" data-category="vis">Visualizations</button>
+                    <button class="filter-button" data-category="da">Data Analysis</button>
+                    <button class="filter-button" data-category="ts">Time Series</button>
                     <!-- Add more categories as needed -->
 
                 
-                <div class="row" style="margin-top: 2%;">
-                    <div class="col-lg-4" data-category="ml">
+
+                    <!-- <div class="col-lg-4" data-category="ml">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                            <div class="row">
+                                <div class="card-content card col-lg-6" data-category="ml" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -135,13 +136,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4" data-category="ml">
+                    </div> -->
+                    <!-- <div class="col-lg-4" data-category="ml">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="ts" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -164,13 +165,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4" data-category="ml">
+                    </div> -->
+                    <!-- <div class="col-lg-4" data-category="ml">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="dl" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -193,15 +194,14 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 2%;">
-                    <div class="col-lg-4" data-category="web">
+                    </div> -->
+
+                    <!-- <div class="col-lg-4" data-category="web">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="ml" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -224,13 +224,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4" data-category="web">
+                    </div> -->
+                    <!-- <div class="col-lg-4" data-category="ml">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="vis" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -253,13 +253,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4" data-category="web">
+                    </div> -->
+                    <!-- <div class="col-lg-4" data-category="web">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="dl" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -282,15 +282,14 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 2%;">
-                    <div class="col-lg-4" data-category="web">
+                    </div> -->
+
+                    <!-- <div class="col-lg-4" data-category="web">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="ts" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -313,13 +312,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
                     </div>
                     <div class="col-lg-4" data-category="web">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="vis" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -342,13 +341,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div>
                         </div>
                     </div>
                     <div class="col-lg-4" data-category="ml">
                         <div class="list__item" style="margin-top: 2%;">
-                            <div class="card" style="height: 360px;">
-                                <div class="card-content">
+                            <div class="card" style="height: 360px;"> -->
+                                <div class="card-content card col-lg-6" data-category="ml" style="margin-top: 2%;">
                                     <div class="media">
                                         <div class="media-content">
                                             <div class="row">
@@ -372,9 +371,10 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+
             </div>
         </div>
     </div>
@@ -383,7 +383,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
     const filterButtons = document.querySelectorAll(".filter-button");
-    const projects = document.querySelectorAll(".col-lg-4");
+    const projects = document.querySelectorAll(".col-lg-6" );
 
     filterButtons.forEach(button => {
         button.addEventListener("click", function () {
